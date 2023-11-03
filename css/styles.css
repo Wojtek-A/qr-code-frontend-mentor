@@ -16,10 +16,11 @@ p {
   --dark-blue: hsl(218, 44%, 22%);
 }
 .box {
-  width: 350px;
-  height: 540px;
+  width: 320px;
+  height: 497px;
   border-radius: 20px;
   background-color: var(--white);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,20 +28,23 @@ p {
   transform: translate(-50%, -50%);
 }
 .picture {
-  margin: 20px;
-  width: 310px;
-  border-radius: 15px;
+  margin: 16px;
+  width: 288px;
+  border-radius: 10px;
 }
 .text {
   text-align: center;
-  width: 260px;
+  width: 288px;
   margin: auto;
 }
 .text p {
-  margin-top: 20px;
+  margin-top: 16px;
+  letter-spacing: 0.188px;
+  font-size: 15px;
   color: var(--grayish-blue);
 }
 .text h1 {
+  margin-top: 4px;
   font-size: 22px;
 }
 .attribution {
